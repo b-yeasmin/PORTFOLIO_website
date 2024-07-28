@@ -1,0 +1,422 @@
+
+/* nav-area start*/
+
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo h1{
+    color: var(--primary-color);
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.nav-items li{
+    font-family: "Rubik", sans-serif;
+    list-style: none;
+    margin: 0px 15px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+#button{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 15px;
+    border: none;
+}
+/* nav-area end*/
+
+
+
+
+
+/* banner-area start */
+.banner-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-desc h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 55px;
+    font-weight: 619px;
+}
+.banner-desc img{
+    margin: 0px 13px;
+}
+#location{
+    color: var(--primary-color);
+}
+.banner-desc p{
+    margin-top: 15px;
+    color: grey;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.achievement{
+    display: flex;
+    gap: 10px;
+    margin: 25px 0px;
+}
+.achievement h1{
+    font-size: 26px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+#hero-buttons {
+    border-radius: 45px;
+    padding: 8px;
+    background-color: #343434;
+    width: fit-content;
+    border: 1px solid var(--icon-color);
+}
+.hero-button1 {
+    padding: 16px 24px 16px 24px;
+    background-color: var(--primary-color);
+    border-radius: 45px;
+    font-size: 24px;
+    border: none;
+}
+.hero-button1 > a {
+    text-decoration: none;
+}
+#portfolio-arrow {
+    transform: rotate(315deg);
+}
+.hero-button2 {
+    padding: 16px 24px 16px 24px;
+    border-radius: 45px;
+    font-size: 24px;
+    background-color: #343434;
+    text-decoration: none;
+    border: none;
+}
+.hero-button2 > a {
+    text-decoration: none;
+}
+.social-icon {
+    display: flex;
+    font-size: 2rem;
+    gap: 25px;
+    margin-top: 30px;
+    margin-left: 15px;
+   
+}
+.social-icon i{
+    color: grey;
+}
+.abput-me-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.about-desc h1{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.about-desc p{
+    color: grey;
+    font-size: 21px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.my-experience img{
+    margin-top: 50px;
+}
+.my-experience h1{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.my-experience p{
+    font-size: 20px;
+    text-align: right;
+}
+/* banner-area end */
+
+
+
+
+/* my-work-area start*/
+.overall-work-area{
+    background-color: rgb(50 38 41);;
+}
+.My-work-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.Experience h3{
+    font-style: italic;
+}
+.Experience h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+.Experience{
+    line-height: 26px;
+    font-size: 17px;
+}
+.my-work{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-top: 20px;
+}
+.my-work > h3{
+    font-style: italic;
+}
+.my-work > h4{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 150px;
+}
+.work-title > h1{
+    font-size: 35px;
+    border-bottom: 1px solid var(--font-primary-color);
+    margin: 30px 0px;
+    padding-bottom: 30px;
+}
+/* my-work-area end*/
+
+
+
+/* award-area start*/
+
+ #award{
+    margin-top: 60px;
+ }
+.award-title{
+    text-align: center;
+}
+.award-title h1{
+    font-size: 35px;
+}
+.award-title p{
+    font-size: 21px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.Projects{
+    background-color: black;
+    /* width: 80%;
+    margin: 0px auto; */
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px 80px 80px;
+}
+.project-title h1{
+    font-weight: lighter;
+}
+.project-title p{
+    font-size: 19px;
+    color: grey;
+    margin-top: 20px;
+    /* margin-bottom: 60px; */
+}
+/* award-area end*/
+
+
+
+
+/* portfolio-area start */
+.portfolio-title{
+    align-items: center;
+    text-align: center;
+}
+.portfolio-title h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.portfolio-title p{
+    font-size: 21px;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.potfolio-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.potfolio-buttons button{
+    background-color: black;
+    width: fit-content;
+    padding: 15px 20px;
+    font-size: 25px;
+    border: none;
+}
+.potfolio-buttons > button:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.potfolio-buttons > button> a{
+    text-decoration: none;
+}
+.project-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.project-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 60px;
+}
+.project-details h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.project-details p{
+    font-size: 21px;
+    margin: 18px;
+    color: grey;
+}
+.project-details h2{
+    margin: 20px;
+    font-style: italic;
+}
+/* portfolio-area end */
+
+
+
+/* bio-data-area start */
+.contact-title{
+    text-align: center;
+}
+.contact-title h4{
+    font-style: italic;
+    margin-top: 70px;
+}
+.contact-title h1{
+    margin: 30px;
+    font-size: 40px;
+}
+.bio-data-area{
+    background-color: rgb(52 38 27);
+    align-items: center;
+    margin-bottom: 40px;
+}
+.any-project-area{
+    margin: 0px 90px;
+}
+.bio-data-area h1{
+    font-size: 40px;
+}
+.bio-data {
+    display: flex;
+    justify-content: space-between;
+}
+.bio-data h3{
+    text-align: left;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.text-1{
+    border-bottom: 1px solid var(--font-primary-color);
+    width: 35%;
+    padding-bottom: 30px;
+}
+.text-2{
+    border-bottom: 1px solid var(--font-primary-color);
+    width: 35%;
+    padding-bottom: 30px;
+}
+.text-3{
+    text-transform: uppercase;
+    /* font-weight: lighter; */
+    margin-top: 50px;
+    border-bottom: 1px solid var(--font-primary-color);
+    padding-bottom: 30px;
+}
+.text-4{
+    display: flex;
+    gap: 10px;
+    /* padding-top: 30px; */
+    margin-top: 40px;
+}
+.text-4 h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.any-project-area button{
+    background-color: var(--primary-color);
+    margin-top: 30px;
+    padding: 15px 15px;
+    font-size: 21px;
+    letter-spacing: 2px;
+    border: none;
+}
+.any-project-area button > a{
+    text-decoration: none;
+}
+/* bio-data-area end */
+
+
+
+/* footer-area start */
+.footer-sec{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.footer-area {
+    align-items: center;
+    text-align: center;
+}
+.footer-area h1{
+    color: var(--primary-color);
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 40px;
+}
+.footer-items li{
+    list-style: none;
+}
+.footer-items li > a{
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 2rem;
+}
+.copyright-area h2{
+    text-align: center;
+    font-weight: lighter;
+}
+.name{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+/* footer-area end */
+
