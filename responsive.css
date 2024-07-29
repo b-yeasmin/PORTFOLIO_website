@@ -19,10 +19,11 @@
     }
     .nav-items a{
         font-size: 19px;
+        letter-spacing: 0px;
     }
     #button{
         padding: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     /* nav-area end */
 
@@ -30,6 +31,9 @@
 
     
     /* banner-area start */
+    .banner-area{
+        border-top: 1px solid rgb(71, 69, 69);
+    }
 
     .banner-area{
         justify-content: space-between;
@@ -41,7 +45,7 @@
     #banner-image img{
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 70%;
         margin: 0px auto;
     }
     .banner-desc h1{
